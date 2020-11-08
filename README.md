@@ -5,6 +5,8 @@
  Use below steps to compile the code.boost_iostreams library support is required. BinaryTree.h header file is to be included.
 
  cmake CMakeLists.txt
+
  make clean
+
  make
 
