@@ -1,0 +1,45 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.gz
+
+#Tool cmakegit : git exclusions.
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.swp
+valgrind.csv
+vgcore.*
+*.perf
+
+# Expose only dynamic library and header [ not core lib source code ].
+BinaryTree.cpp
