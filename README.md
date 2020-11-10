@@ -10,3 +10,4 @@
 
  make
 
+ Before running the examples in set1/2/3 or examples/ set LD_LIBRARY_PATH to include libBinaryTree.so

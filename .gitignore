@@ -43,3 +43,4 @@ vgcore.*
 
 # Expose only dynamic library and header [ not core lib source code ].
 BinaryTree.cpp
+*.core.*

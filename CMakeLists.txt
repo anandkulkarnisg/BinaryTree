@@ -50,6 +50,12 @@ add_executable(set2/largestbst.out set2/largestbst.cpp)
 add_executable(set2/bstkeyremoval.out set2/bstkeyremoval.cpp)
 add_executable(set2/removehalfnodes.out set2/removehalfnodes.cpp)
 
+# All 10 examples in set3.
+add_executable(set3/topview.out set3/topview.cpp)
+add_executable(set3/bottomview.out set3/bottomview.cpp)
+add_executable(set3/leftview.out set3/leftview.cpp)
+add_executable(set3/rightview.out set3/rightview.cpp)
+
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example2.out BinaryTree boost_iostreams)
@@ -94,3 +100,9 @@ target_link_libraries(set2/deepest_oddlevel_leaf.out BinaryTree boost_iostreams)
 target_link_libraries(set2/largestbst.out BinaryTree boost_iostreams)
 target_link_libraries(set2/bstkeyremoval.out BinaryTree boost_iostreams)
 target_link_libraries(set2/removehalfnodes.out BinaryTree boost_iostreams)
+
+# All linking section for set3 examples.
+target_link_libraries(set3/topview.out BinaryTree boost_iostreams)
+target_link_libraries(set3/bottomview.out BinaryTree boost_iostreams)
+target_link_libraries(set3/leftview.out BinaryTree boost_iostreams)
+target_link_libraries(set3/rightview.out BinaryTree boost_iostreams)
