@@ -9,7 +9,14 @@
 
 using namespace std;
 
-typedef map<long, vector<int>, greater<int>> dmap;
+enum class sortType { ascending, descending };
+
+constexpr sortType order=sortType::ascending;
+
+template<sortType> struct comptype { };
+template<> struct comptype<sortType::descending>  { typedef greater<int> result; };
+template<> struct comptype<sortType::ascending>   { typedef less<int> result; };
+typedef map<long, vector<int>, comptype<order>::result> dmap;
 
 void getVerticalViewInternal(const BinaryTreeNode<int>* node, dmap& vmap, const long attributeTag)
 {

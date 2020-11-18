@@ -51,7 +51,7 @@ void recoverBrokenBST(BinaryTreeNode<int>* node)
 
 int main(int argc, char* argv[])
 {
-  vector<vector<int>> testCases={{10,5,8,2,20,99,99},{10,5,22,2,8,18,20}};
+  vector<vector<int>> testCases={{10,5,8,2,20,99,99},{10,5,22,2,8,18,20},{7,5,9,10,6,8,4}};
   BinaryTree<int> tree(false);
   for(const auto& testCase : testCases)
   {    
