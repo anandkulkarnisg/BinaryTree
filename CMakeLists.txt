@@ -5,6 +5,7 @@ include_directories("library")
 link_directories("library")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -I. -L. -Wall -Werror")
 
+
 # Add test Examples below.
 add_executable(examples/Example1.out examples/Example1.cpp)
 add_executable(examples/Example2.out examples/Example2.cpp)
@@ -67,6 +68,8 @@ add_executable(set4/brokenbst.out set4/brokenbst.cpp)
 add_executable(set4/inordersuccessor.out set4/inordersuccessor.cpp)
 add_executable(set4/inorderpredecessor.out set4/inorderpredecessor.cpp)
 add_executable(set4/floorceil.out set4/floorceil.cpp)
+add_executable(set4/diagonalsum.out set4/diagonalsum.cpp)
+add_executable(set4/auxdiagonalsum.out set4/auxdiagonalsum.cpp)
 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -130,3 +133,5 @@ target_link_libraries(set4/brokenbst.out BinaryTree boost_iostreams)
 target_link_libraries(set4/inordersuccessor.out BinaryTree boost_iostreams)
 target_link_libraries(set4/inorderpredecessor.out BinaryTree boost_iostreams)
 target_link_libraries(set4/floorceil.out BinaryTree boost_iostreams)
+target_link_libraries(set4/diagonalsum.out BinaryTree boost_iostreams)
+target_link_libraries(set4/auxdiagonalsum.out BinaryTree boost_iostreams)
