@@ -64,6 +64,9 @@ add_executable(set3/verticalview.out set3/verticalview.cpp)
 
 # All 10 examples in set4.
 add_executable(set4/brokenbst.out set4/brokenbst.cpp)
+add_executable(set4/inordersuccessor.out set4/inordersuccessor.cpp)
+add_executable(set4/inorderpredecessor.out set4/inorderpredecessor.cpp)
+add_executable(set4/floorceil.out set4/floorceil.cpp)
 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -124,3 +127,6 @@ target_link_libraries(set3/verticalview.out BinaryTree boost_iostreams)
 
 # All linking section for set4 examples.
 target_link_libraries(set4/brokenbst.out BinaryTree boost_iostreams)
+target_link_libraries(set4/inordersuccessor.out BinaryTree boost_iostreams)
+target_link_libraries(set4/inorderpredecessor.out BinaryTree boost_iostreams)
+target_link_libraries(set4/floorceil.out BinaryTree boost_iostreams)
