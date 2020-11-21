@@ -71,7 +71,15 @@ int main(int argc, char* argv[])
     for(const auto& searchItem : searchItems)
     {
       tuple<int, int> resultPair=findFloorCeilBST(tree.getRoot(), searchItem);
-      cout<<"The Floor and Ceil results for key = "<<searchItem<<" are "<<get<0>(resultPair)<<" and "<<get<1>(resultPair)<<" respectively."<<endl;
+      int floor=get<0>(resultPair), ceil=get<1>(resultPair);
+      if(floor!=-INT_MAX)
+        cout<<"The Floor for key = "<<searchItem<<" is : "<<floor<<" and ";
+      else
+        cout<<"The Floor for key = "<<searchItem<<" is not found! and ";
+      if(ceil!=INT_MAX)
+        cout<<"The Ceil for key = "<<searchItem<<" is : "<<ceil<<endl;
+      else
+        cout<<"The Ceil for key = "<<searchItem<<" is not found!"<<endl;
     }
   }
   return(0);

@@ -70,6 +70,7 @@ add_executable(set4/inorderpredecessor.out set4/inorderpredecessor.cpp)
 add_executable(set4/floorceil.out set4/floorceil.cpp)
 add_executable(set4/diagonalsum.out set4/diagonalsum.cpp)
 add_executable(set4/auxdiagonalsum.out set4/auxdiagonalsum.cpp)
+add_executable(set4/descendinginorder.out set4/descendinginorder.cpp)
 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -135,3 +136,4 @@ target_link_libraries(set4/inorderpredecessor.out BinaryTree boost_iostreams)
 target_link_libraries(set4/floorceil.out BinaryTree boost_iostreams)
 target_link_libraries(set4/diagonalsum.out BinaryTree boost_iostreams)
 target_link_libraries(set4/auxdiagonalsum.out BinaryTree boost_iostreams)
+target_link_libraries(set4/descendinginorder.out BinaryTree boost_iostreams)

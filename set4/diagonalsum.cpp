@@ -11,11 +11,7 @@ void getDiagonalSumInternal(const BinaryTreeNode<int>* node, const size_t vertic
 {
   if(!node)
     return;
-  auto iter=resultMap.find(verticalLevel);
-  if(iter==resultMap.end())
-    resultMap[verticalLevel]=node->m_data;
-  else
-    resultMap[verticalLevel]+=node->m_data;
+  resultMap[verticalLevel]+=node->m_data;
   getDiagonalSumInternal(node->m_leftChild, verticalLevel+1, resultMap);
   getDiagonalSumInternal(node->m_rightChild, verticalLevel, resultMap);
 }
