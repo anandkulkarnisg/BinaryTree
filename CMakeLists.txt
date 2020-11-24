@@ -3,7 +3,7 @@ project(BinaryTree)
 
 include_directories("library")
 link_directories("library")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -I. -L. -Wall -Werror")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -I. -I/home/anand/git/CyclicBarrier -L. -L/home/anand/git/CyclicBarrier -Wall -Werror")
 
 
 # Add test Examples below.
@@ -71,6 +71,9 @@ add_executable(set4/floorceil.out set4/floorceil.cpp)
 add_executable(set4/diagonalsum.out set4/diagonalsum.cpp)
 add_executable(set4/auxdiagonalsum.out set4/auxdiagonalsum.cpp)
 add_executable(set4/descendinginorder.out set4/descendinginorder.cpp)
+add_executable(set4/bt2bst.out set4/bt2bst.cpp)
+add_executable(set4/reverseBST.out set4/reverseBST.cpp)
+add_executable(set4/pathlenlessk.out set4/pathlenlessk.cpp)
 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -137,3 +140,6 @@ target_link_libraries(set4/floorceil.out BinaryTree boost_iostreams)
 target_link_libraries(set4/diagonalsum.out BinaryTree boost_iostreams)
 target_link_libraries(set4/auxdiagonalsum.out BinaryTree boost_iostreams)
 target_link_libraries(set4/descendinginorder.out BinaryTree boost_iostreams)
+target_link_libraries(set4/bt2bst.out BinaryTree boost_iostreams)
+target_link_libraries(set4/reverseBST.out BinaryTree boost_iostreams CyclicBarrier pthread)
+target_link_libraries(set4/pathlenlessk.out BinaryTree boost_iostreams)

@@ -26,7 +26,7 @@ size_t getMinDepth(const BinaryTreeNode<int>* node)
 
 int main(int argc, char* argv[])
 {
-  vector<vector<int>> testCases={{},{1,2,3,4,5,99,99},{1},{1,2,3,4,5,6,7},{},{1,2,99,3,99,99,99},{1,99,2,99,99,99,3}};
+  vector<vector<int>> testCases={{},{1,2,3,4,5,99,99},{1},{1,2,3,4,5,6,7},{},{1,2,99,3,99,99,99},{1,99,2,99,99,99,3},{}};
   BinaryTree<int> tree(false);
   for(const auto& testCase : testCases)
   {

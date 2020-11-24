@@ -45,3 +45,4 @@ vgcore.*
 BinaryTree.cpp
 dosync
 *.core.*
+*.png
