@@ -75,6 +75,9 @@ add_executable(set4/bt2bst.out set4/bt2bst.cpp)
 add_executable(set4/reverseBST.out set4/reverseBST.cpp)
 add_executable(set4/pathlenlessk.out set4/pathlenlessk.cpp)
 
+# All 10 examples in set5.
+add_executable(set5/pathsumlessk.out set5/pathsumlessk.cpp)
+
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example2.out BinaryTree boost_iostreams)
@@ -143,3 +146,6 @@ target_link_libraries(set4/descendinginorder.out BinaryTree boost_iostreams)
 target_link_libraries(set4/bt2bst.out BinaryTree boost_iostreams)
 target_link_libraries(set4/reverseBST.out BinaryTree boost_iostreams CyclicBarrier pthread)
 target_link_libraries(set4/pathlenlessk.out BinaryTree boost_iostreams)
+
+# All linking section for set5 examples.
+target_link_libraries(set5/pathsumlessk.out BinaryTree boost_iostreams)
