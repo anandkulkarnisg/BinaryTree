@@ -77,6 +77,10 @@ add_executable(set4/pathlenlessk.out set4/pathlenlessk.cpp)
 
 # All 10 examples in set5.
 add_executable(set5/pathsumlessk.out set5/pathsumlessk.cpp)
+add_executable(set5/maxwidth.out set5/maxwidth.cpp)
+add_executable(set5/cornernodes.out set5/cornernodes.cpp)
+add_executable(set5/rmhalfnode2fullbt.out set5/rmhalfnode2fullbt.cpp)
+add_executable(set5/sinkzeronodes.out set5/sinkzeronodes.cpp)
 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -149,3 +153,7 @@ target_link_libraries(set4/pathlenlessk.out BinaryTree boost_iostreams)
 
 # All linking section for set5 examples.
 target_link_libraries(set5/pathsumlessk.out BinaryTree boost_iostreams)
+target_link_libraries(set5/maxwidth.out BinaryTree boost_iostreams)
+target_link_libraries(set5/cornernodes.out BinaryTree boost_iostreams)
+target_link_libraries(set5/rmhalfnode2fullbt.out BinaryTree boost_iostreams)
+target_link_libraries(set5/sinkzeronodes.out BinaryTree boost_iostreams)
