@@ -17,14 +17,14 @@ void doIterativeInOrderTraversal(const BinaryTreeNode<int>* node)
   const BinaryTreeNode<int>* curr=node;
   cout<<"Iterative InOrder Traversal : ";
   while(curr||!nodeStack.empty()) 
-  { 
+  {
     /* Reach the left most Node of the curr Node */
     while(curr)
-    { 
+    {
       /* place pointer to a tree node on the stack before traversing the node's left subtree */
       nodeStack.push(curr);
       curr=curr->m_leftChild;
-    } 
+    }
     /* Current must be NULL at this point */
     curr=nodeStack.top();
     nodeStack.pop();
@@ -33,7 +33,7 @@ void doIterativeInOrderTraversal(const BinaryTreeNode<int>* node)
     curr=curr->m_rightChild;
   } /* end of while */
   cout<<'\n';
-} 
+}
 
 int main(int argc, char* argv[])
 {

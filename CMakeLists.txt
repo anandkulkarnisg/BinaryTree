@@ -84,7 +84,9 @@ add_executable(set5/sinkzeronodes.out set5/sinkzeronodes.cpp)
 add_executable(set5/iterativepreorder.out set5/iterativepreorder.cpp)
 add_executable(set5/iterativeinorder.out set5/iterativeinorder.cpp)
 add_executable(set5/iterativepostorder.out set5/iterativepostorder.cpp)
-
+add_executable(set5/countbtbst.out set5/countbtbst.cpp)
+add_executable(set5/isminmaxheap.out set5/isminmaxheap.cpp)
+ 
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example2.out BinaryTree boost_iostreams)
@@ -163,3 +165,5 @@ target_link_libraries(set5/sinkzeronodes.out BinaryTree boost_iostreams)
 target_link_libraries(set5/iterativepreorder.out BinaryTree boost_iostreams)
 target_link_libraries(set5/iterativeinorder.out BinaryTree boost_iostreams)
 target_link_libraries(set5/iterativepostorder.out BinaryTree boost_iostreams)
+target_link_libraries(set5/countbtbst.out BinaryTree boost_iostreams)
+target_link_libraries(set5/isminmaxheap.out BinaryTree boost_iostreams)
