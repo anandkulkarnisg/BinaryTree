@@ -165,7 +165,7 @@ template<typename T> class BinaryTree
     // Check if a given node is a leaf.
     bool isLeaf(const BinaryTreeNode<T>*);
 
-    // A simple boost based serializer that saves binary tree as compressed gz file.Only supports perfect binary tree structure at the moment.
+    // A simple boost based serializer that saves binary tree as compressed gz file.Supports any shape of Binary Tree [ tested upto 100mil size BinaryTree ].
     const string serialize(const char*);
     const string deserialize(const char*);
 
