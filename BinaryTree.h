@@ -117,6 +117,7 @@ template<typename T> class BinaryTree
   public:
     // Key constructor, copy and assignment supported.The creation by pointer and reference are deep copy without using/owning the passed in parameter i.e pointer/reference.
     BinaryTree(const bool& isStrict=true);
+    BinaryTree(const vector<T>& input, const bool& isStrict=true);
     BinaryTree(BinaryTreeNode<T>*, const bool& isStrict=true, const bool& cleanInput=false);
     BinaryTree(const BinaryTree<T>&);
     bool operator!=(const BinaryTree<T>&);

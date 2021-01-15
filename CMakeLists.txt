@@ -26,6 +26,7 @@ add_executable(examples/Example16.out examples/Example16.cpp)
 add_executable(examples/Example17.out examples/Example17.cpp)
 add_executable(examples/Example18.out examples/Example18.cpp)
 add_executable(examples/Example19.out examples/Example19.cpp)
+add_executable(examples/Example20.out examples/Example20.cpp)
 
 # All 10 examples in set1.
 add_executable(set1/diameter.out set1/diameter.cpp)
@@ -107,6 +108,7 @@ target_link_libraries(examples/Example16.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example17.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example18.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example19.out BinaryTree boost_iostreams)
+target_link_libraries(examples/Example20.out BinaryTree boost_iostreams)
 
 # All linking section for set1 examples.
 target_link_libraries(set1/diameter.out BinaryTree boost_iostreams)
