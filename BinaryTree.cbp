@@ -1,0 +1,2600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BinaryTree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/leaftorootheight.out">
+				<Option output="/home/anand/git/BinaryTree/set5/leaftorootheight.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/leaftorootheight.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/leaftorootheight.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/leaftorootheight.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/leaftorootheight.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/maxksum.out">
+				<Option output="/home/anand/git/BinaryTree/set5/maxksum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/maxksum.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/maxksum.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/maxksum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/maxksum.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/countbtbst.out">
+				<Option output="/home/anand/git/BinaryTree/set5/countbtbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/countbtbst.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/countbtbst.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/countbtbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/countbtbst.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativepostorder.out">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativepostorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativepostorder.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativepostorder.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativepostorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativepostorder.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativeinorder.out">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativeinorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativeinorder.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativeinorder.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativeinorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativeinorder.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativepreorder.out">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativepreorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativepreorder.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/iterativepreorder.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/iterativepreorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/iterativepreorder.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/maxwidth.out">
+				<Option output="/home/anand/git/BinaryTree/set5/maxwidth.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/maxwidth.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/maxwidth.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/maxwidth.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/maxwidth.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/pathsumlessk.out">
+				<Option output="/home/anand/git/BinaryTree/set5/pathsumlessk.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/pathsumlessk.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/pathsumlessk.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/pathsumlessk.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/pathsumlessk.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/pathlenlessk.out">
+				<Option output="/home/anand/git/BinaryTree/set4/pathlenlessk.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/pathlenlessk.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/pathlenlessk.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/pathlenlessk.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/pathlenlessk.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/reverseBST.out">
+				<Option output="/home/anand/git/BinaryTree/set4/reverseBST.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/reverseBST.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/reverseBST.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/reverseBST.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/reverseBST.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/bt2bst.out">
+				<Option output="/home/anand/git/BinaryTree/set4/bt2bst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/bt2bst.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/bt2bst.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/bt2bst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/bt2bst.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/cornernodes.out">
+				<Option output="/home/anand/git/BinaryTree/set5/cornernodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/cornernodes.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/cornernodes.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/cornernodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/cornernodes.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/descendinginorder.out">
+				<Option output="/home/anand/git/BinaryTree/set4/descendinginorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/descendinginorder.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/descendinginorder.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/descendinginorder.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/descendinginorder.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/auxdiagonalsum.out">
+				<Option output="/home/anand/git/BinaryTree/set4/auxdiagonalsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/auxdiagonalsum.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/auxdiagonalsum.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/auxdiagonalsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/auxdiagonalsum.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/inorderpredecessor.out">
+				<Option output="/home/anand/git/BinaryTree/set4/inorderpredecessor.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/inorderpredecessor.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/inorderpredecessor.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/inorderpredecessor.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/inorderpredecessor.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/inordersuccessor.out">
+				<Option output="/home/anand/git/BinaryTree/set4/inordersuccessor.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/inordersuccessor.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/inordersuccessor.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/inordersuccessor.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/inordersuccessor.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/brokenbst.out">
+				<Option output="/home/anand/git/BinaryTree/set4/brokenbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/brokenbst.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/brokenbst.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/brokenbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/brokenbst.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/floorceil.out">
+				<Option output="/home/anand/git/BinaryTree/set4/floorceil.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/floorceil.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/floorceil.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/floorceil.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/floorceil.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/verticalview.out">
+				<Option output="/home/anand/git/BinaryTree/set3/verticalview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/verticalview.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/verticalview.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/verticalview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/verticalview.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/grandchildren.out">
+				<Option output="/home/anand/git/BinaryTree/set3/grandchildren.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/grandchildren.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/grandchildren.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/grandchildren.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/grandchildren.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/nonperiphery.out">
+				<Option output="/home/anand/git/BinaryTree/set3/nonperiphery.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/nonperiphery.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/nonperiphery.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/nonperiphery.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/nonperiphery.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/bottomview.out">
+				<Option output="/home/anand/git/BinaryTree/set3/bottomview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/bottomview.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/bottomview.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/bottomview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/bottomview.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/topview.out">
+				<Option output="/home/anand/git/BinaryTree/set3/topview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/topview.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/topview.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/topview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/topview.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/grandparents.out">
+				<Option output="/home/anand/git/BinaryTree/set3/grandparents.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/grandparents.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/grandparents.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/grandparents.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/grandparents.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/bstkeyremoval.out">
+				<Option output="/home/anand/git/BinaryTree/set2/bstkeyremoval.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/bstkeyremoval.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/bstkeyremoval.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/bstkeyremoval.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/bstkeyremoval.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/leftrightleafsum.out">
+				<Option output="/home/anand/git/BinaryTree/set2/leftrightleafsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/leftrightleafsum.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/leftrightleafsum.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/leftrightleafsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/leftrightleafsum.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example13.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example13.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example13.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example13.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example13.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example13.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/deepest_oddlevel_leaf.out">
+				<Option output="/home/anand/git/BinaryTree/set2/deepest_oddlevel_leaf.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/deepest_oddlevel_leaf.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/deepest_oddlevel_leaf.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/deepest_oddlevel_leaf.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/deepest_oddlevel_leaf.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example12.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example12.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example12.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example12.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example12.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example12.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example21.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example21.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example21.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example21.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example21.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example21.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example10.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example10.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example10.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example10.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example10.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example10.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example14.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example14.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example14.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example14.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example14.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example14.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example16.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example16.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example16.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example16.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example16.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example16.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example9.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example9.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example9.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example9.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example9.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example9.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/periphery.out">
+				<Option output="/home/anand/git/BinaryTree/set3/periphery.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/periphery.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/periphery.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/periphery.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/periphery.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example15.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example15.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example15.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example15.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example15.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example15.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/rightview.out">
+				<Option output="/home/anand/git/BinaryTree/set3/rightview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/rightview.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/rightview.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/rightview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/rightview.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/symmetric.out">
+				<Option output="/home/anand/git/BinaryTree/set1/symmetric.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/symmetric.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/symmetric.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/symmetric.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/symmetric.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example8.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example8.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example8.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example8.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example8.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example8.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example2.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example2.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example2.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example2.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example18.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example18.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example18.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example18.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example18.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example18.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/rootleaf.out">
+				<Option output="/home/anand/git/BinaryTree/set2/rootleaf.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/rootleaf.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/rootleaf.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/rootleaf.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/rootleaf.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example1.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example1.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example1.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example1.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example3.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example3.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example3.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example3.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example3.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example4.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example4.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example4.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example4.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example4.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example4.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/diagonalsum.out">
+				<Option output="/home/anand/git/BinaryTree/set4/diagonalsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/diagonalsum.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set4/diagonalsum.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set4/diagonalsum.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set4/diagonalsum.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/invert.out">
+				<Option output="/home/anand/git/BinaryTree/set1/invert.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/invert.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/invert.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/invert.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/invert.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example6.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example6.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example6.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example6.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example6.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example6.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example5.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example5.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example5.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example5.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example5.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example17.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example17.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example17.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example17.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example17.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example17.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/isminmaxheap.out">
+				<Option output="/home/anand/git/BinaryTree/set5/isminmaxheap.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/isminmaxheap.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/isminmaxheap.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/isminmaxheap.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/isminmaxheap.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/removehalfnodes.out">
+				<Option output="/home/anand/git/BinaryTree/set2/removehalfnodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/removehalfnodes.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/removehalfnodes.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/removehalfnodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/removehalfnodes.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/contains2.out">
+				<Option output="/home/anand/git/BinaryTree/set1/contains2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/contains2.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/contains2.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/contains2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/contains2.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/mindepth.out">
+				<Option output="/home/anand/git/BinaryTree/set2/mindepth.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/mindepth.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/mindepth.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/mindepth.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/mindepth.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/rmhalfnode2fullbt.out">
+				<Option output="/home/anand/git/BinaryTree/set5/rmhalfnode2fullbt.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/rmhalfnode2fullbt.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/rmhalfnode2fullbt.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/rmhalfnode2fullbt.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/rmhalfnode2fullbt.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/largestbst.out">
+				<Option output="/home/anand/git/BinaryTree/set2/largestbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/largestbst.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/largestbst.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/largestbst.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/largestbst.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example19.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example19.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example19.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example19.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example19.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example19.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/issubtree.out">
+				<Option output="/home/anand/git/BinaryTree/set1/issubtree.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/issubtree.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/issubtree.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/issubtree.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/issubtree.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/cousins.out">
+				<Option output="/home/anand/git/BinaryTree/set2/cousins.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/cousins.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/cousins.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/cousins.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/cousins.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example20.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example20.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example20.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example20.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example20.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example20.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example7.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example7.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example7.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example7.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example7.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example7.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/lca.out">
+				<Option output="/home/anand/git/BinaryTree/set1/lca.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/lca.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/lca.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/lca.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/lca.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/contains.out">
+				<Option output="/home/anand/git/BinaryTree/set1/contains.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/contains.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/contains.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/contains.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/contains.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/nogpnorgc.out">
+				<Option output="/home/anand/git/BinaryTree/set3/nogpnorgc.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/nogpnorgc.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/nogpnorgc.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/nogpnorgc.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/nogpnorgc.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/sumtree.out">
+				<Option output="/home/anand/git/BinaryTree/set1/sumtree.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/sumtree.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/sumtree.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/sumtree.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/sumtree.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/diameter.out">
+				<Option output="/home/anand/git/BinaryTree/set1/diameter.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/diameter.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/diameter.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/diameter.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/diameter.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/leftview.out">
+				<Option output="/home/anand/git/BinaryTree/set3/leftview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/leftview.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set3/leftview.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set3/leftview.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set3/leftview.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example11.out">
+				<Option output="/home/anand/git/BinaryTree/examples/Example11.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example11.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="examples/Example11.out/fast">
+				<Option output="/home/anand/git/BinaryTree/examples/Example11.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 examples/Example11.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/levelordertraversal.out">
+				<Option output="/home/anand/git/BinaryTree/set1/levelordertraversal.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/levelordertraversal.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/levelordertraversal.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/levelordertraversal.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/levelordertraversal.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/zigzagtraversal.out">
+				<Option output="/home/anand/git/BinaryTree/set1/zigzagtraversal.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/zigzagtraversal.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set1/zigzagtraversal.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set1/zigzagtraversal.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set1/zigzagtraversal.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/sinkzeronodes.out">
+				<Option output="/home/anand/git/BinaryTree/set5/sinkzeronodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/sinkzeronodes.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set5/sinkzeronodes.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set5/sinkzeronodes.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set5/sinkzeronodes.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/siblings.out">
+				<Option output="/home/anand/git/BinaryTree/set2/siblings.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/siblings.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/siblings.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/siblings.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/siblings.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/nosiblings.out">
+				<Option output="/home/anand/git/BinaryTree/set2/nosiblings.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/nosiblings.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="set2/nosiblings.out/fast">
+				<Option output="/home/anand/git/BinaryTree/set2/nosiblings.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 set2/nosiblings.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example1.cpp">
+			<Option target="examples/Example1.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example10.cpp">
+			<Option target="examples/Example10.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example11.cpp">
+			<Option target="examples/Example11.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example12.cpp">
+			<Option target="examples/Example12.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example13.cpp">
+			<Option target="examples/Example13.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example14.cpp">
+			<Option target="examples/Example14.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example15.cpp">
+			<Option target="examples/Example15.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example16.cpp">
+			<Option target="examples/Example16.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example17.cpp">
+			<Option target="examples/Example17.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example18.cpp">
+			<Option target="examples/Example18.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example19.cpp">
+			<Option target="examples/Example19.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example2.cpp">
+			<Option target="examples/Example2.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example20.cpp">
+			<Option target="examples/Example20.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example21.cpp">
+			<Option target="examples/Example21.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example3.cpp">
+			<Option target="examples/Example3.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example4.cpp">
+			<Option target="examples/Example4.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example5.cpp">
+			<Option target="examples/Example5.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example6.cpp">
+			<Option target="examples/Example6.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example7.cpp">
+			<Option target="examples/Example7.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example8.cpp">
+			<Option target="examples/Example8.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/examples/Example9.cpp">
+			<Option target="examples/Example9.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/contains.cpp">
+			<Option target="set1/contains.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/contains2.cpp">
+			<Option target="set1/contains2.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/diameter.cpp">
+			<Option target="set1/diameter.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/invert.cpp">
+			<Option target="set1/invert.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/issubtree.cpp">
+			<Option target="set1/issubtree.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/lca.cpp">
+			<Option target="set1/lca.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/levelordertraversal.cpp">
+			<Option target="set1/levelordertraversal.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/sumtree.cpp">
+			<Option target="set1/sumtree.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/symmetric.cpp">
+			<Option target="set1/symmetric.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set1/zigzagtraversal.cpp">
+			<Option target="set1/zigzagtraversal.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/bstkeyremoval.cpp">
+			<Option target="set2/bstkeyremoval.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/cousins.cpp">
+			<Option target="set2/cousins.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/deepest_oddlevel_leaf.cpp">
+			<Option target="set2/deepest_oddlevel_leaf.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/largestbst.cpp">
+			<Option target="set2/largestbst.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/leftrightleafsum.cpp">
+			<Option target="set2/leftrightleafsum.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/mindepth.cpp">
+			<Option target="set2/mindepth.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/nosiblings.cpp">
+			<Option target="set2/nosiblings.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/removehalfnodes.cpp">
+			<Option target="set2/removehalfnodes.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/rootleaf.cpp">
+			<Option target="set2/rootleaf.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set2/siblings.cpp">
+			<Option target="set2/siblings.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/bottomview.cpp">
+			<Option target="set3/bottomview.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/grandchildren.cpp">
+			<Option target="set3/grandchildren.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/grandparents.cpp">
+			<Option target="set3/grandparents.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/leftview.cpp">
+			<Option target="set3/leftview.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/nogpnorgc.cpp">
+			<Option target="set3/nogpnorgc.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/nonperiphery.cpp">
+			<Option target="set3/nonperiphery.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/periphery.cpp">
+			<Option target="set3/periphery.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/rightview.cpp">
+			<Option target="set3/rightview.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/topview.cpp">
+			<Option target="set3/topview.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set3/verticalview.cpp">
+			<Option target="set3/verticalview.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/auxdiagonalsum.cpp">
+			<Option target="set4/auxdiagonalsum.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/brokenbst.cpp">
+			<Option target="set4/brokenbst.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/bt2bst.cpp">
+			<Option target="set4/bt2bst.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/descendinginorder.cpp">
+			<Option target="set4/descendinginorder.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/diagonalsum.cpp">
+			<Option target="set4/diagonalsum.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/floorceil.cpp">
+			<Option target="set4/floorceil.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/inorderpredecessor.cpp">
+			<Option target="set4/inorderpredecessor.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/inordersuccessor.cpp">
+			<Option target="set4/inordersuccessor.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/pathlenlessk.cpp">
+			<Option target="set4/pathlenlessk.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set4/reverseBST.cpp">
+			<Option target="set4/reverseBST.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/cornernodes.cpp">
+			<Option target="set5/cornernodes.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/countbtbst.cpp">
+			<Option target="set5/countbtbst.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/isminmaxheap.cpp">
+			<Option target="set5/isminmaxheap.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/iterativeinorder.cpp">
+			<Option target="set5/iterativeinorder.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/iterativepostorder.cpp">
+			<Option target="set5/iterativepostorder.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/iterativepreorder.cpp">
+			<Option target="set5/iterativepreorder.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/leaftorootheight.cpp">
+			<Option target="set5/leaftorootheight.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/maxksum.cpp">
+			<Option target="set5/maxksum.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/maxwidth.cpp">
+			<Option target="set5/maxwidth.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/pathsumlessk.cpp">
+			<Option target="set5/pathsumlessk.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/rmhalfnode2fullbt.cpp">
+			<Option target="set5/rmhalfnode2fullbt.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/set5/sinkzeronodes.cpp">
+			<Option target="set5/sinkzeronodes.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
   relaxedTree.createFromArray(testCases[1]);
   relaxedTree.doInOrderTraversal();
 
-  // Second Example we test if a binaryTree is immutable as expected in strict mode [ which is default].
+  // Second Example we test if a binaryTree is immutable as expected in strict mode [ which is default ].
   cout<<"strict tree demonstration : "<<'\n';
   BinaryTree<int> tree(testCases[0]);  
   tree.doInOrderTraversal();

@@ -27,6 +27,7 @@ add_executable(examples/Example17.out examples/Example17.cpp)
 add_executable(examples/Example18.out examples/Example18.cpp)
 add_executable(examples/Example19.out examples/Example19.cpp)
 add_executable(examples/Example20.out examples/Example20.cpp)
+add_executable(examples/Example21.out examples/Example21.cpp)
 
 # All 10 examples in set1.
 add_executable(set1/diameter.out set1/diameter.cpp)
@@ -87,6 +88,8 @@ add_executable(set5/iterativeinorder.out set5/iterativeinorder.cpp)
 add_executable(set5/iterativepostorder.out set5/iterativepostorder.cpp)
 add_executable(set5/countbtbst.out set5/countbtbst.cpp)
 add_executable(set5/isminmaxheap.out set5/isminmaxheap.cpp)
+add_executable(set5/maxksum.out set5/maxksum.cpp)
+add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -109,6 +112,7 @@ target_link_libraries(examples/Example17.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example18.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example19.out BinaryTree boost_iostreams)
 target_link_libraries(examples/Example20.out BinaryTree boost_iostreams)
+target_link_libraries(examples/Example21.out BinaryTree boost_iostreams)
 
 # All linking section for set1 examples.
 target_link_libraries(set1/diameter.out BinaryTree boost_iostreams)
@@ -169,3 +173,5 @@ target_link_libraries(set5/iterativeinorder.out BinaryTree boost_iostreams)
 target_link_libraries(set5/iterativepostorder.out BinaryTree boost_iostreams)
 target_link_libraries(set5/countbtbst.out BinaryTree boost_iostreams)
 target_link_libraries(set5/isminmaxheap.out BinaryTree boost_iostreams)
+target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
+target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
