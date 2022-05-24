@@ -24,7 +24,7 @@ void printRootToLeafPathsOnlyHeight(const BinaryTreeNode<int>* node, int pathArr
     return;
 
   pathArr[arrIdx]=node->m_data;
-  if(isLeaf(node)&&arrIdx==height&&pathArr[arrIdx]!=99) // Here we check that the node is last leaf node and this one is the path that is the height of the tree.
+  if(isLeaf(node)&&arrIdx==height) // Here we check that the node is last leaf node and this one is the path that is the height of the tree.
   {
     printArrayToConsole(pathArr, arrIdx);
     terminate=true;
@@ -41,15 +41,15 @@ void printRootToLeafPathsOnlyHeight(const BinaryTreeNode<int>* node, int pathArr
 
 int main(int argc, char* argv[])
 {
-  vector<int> vec={1,2,3,4,5,6,7,99,99,8,99,99,99,99,99};
-  //vector<int> vec={1,2,3,4,5,6,7};
-  BinaryTree<int> tree;
-  tree.createFromArray(vec);
-  size_t height=tree.height();
-  int pathArr[height];
-  bool terminate=false;
-
-  // Identify and print root to leaf paths possible in the tree which is on the height path [ i.e the longest root to leaf node path ].
-  printRootToLeafPathsOnlyHeight(tree.getRoot(), pathArr, 0, height, terminate);
+  vector<vector<int>> testCases={{1,2,3,4,5,6,7,99,99,8,99,99,99,99,99}, {1,2,3,4,5,6,7}};
+  BinaryTree<int> tree(false); // Set the tree up for a relaxed mode where it can be changed.
+  for(const auto& testCase : testCases) {
+      tree.createFromArray(testCase, 99);  // Use 99 as a null value while building the binary tree.
+      size_t height = tree.height();
+      int pathArr[height];
+      bool terminate = false;
+      // Identify and print root to leaf paths possible in the tree which is on the height path [ i.e the longest root to leaf node path ].
+      printRootToLeafPathsOnlyHeight(tree.getRoot(), pathArr, 0, height, terminate);
+  }
   return(0);
 }
