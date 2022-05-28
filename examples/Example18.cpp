@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
   tree1.doInOrderTraversal();
   cout<<"tree1 degenerate status="<<tree1.isDegenerate()<<endl;
 
-  // Build a degenerate binary tree here.
+  // Build a degenrate binary tree here.
   vector<size_t> idxList2={0,1,3};
   vector<int> valList2={1,3,5};
   BinaryTree<int> tree2;

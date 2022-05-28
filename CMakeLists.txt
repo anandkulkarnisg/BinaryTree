@@ -63,7 +63,7 @@ add_executable(set3/nonperiphery.out set3/nonperiphery.cpp)
 add_executable(set3/grandparents.out set3/grandparents.cpp)
 add_executable(set3/grandchildren.out set3/grandchildren.cpp)
 add_executable(set3/nogpnorgc.out set3/nogpnorgc.cpp)
-add_executable(set3/verticalview.out set3/verticalview.cpp)
+add_executable(set3/verticaltraversal.out set3/verticaltraversal.cpp)
 
 # All 10 examples in set4.
 add_executable(set4/brokenbst.out set4/brokenbst.cpp)
@@ -148,7 +148,7 @@ target_link_libraries(set3/nonperiphery.out BinaryTree boost_iostreams)
 target_link_libraries(set3/grandparents.out BinaryTree boost_iostreams)
 target_link_libraries(set3/grandchildren.out BinaryTree boost_iostreams)
 target_link_libraries(set3/nogpnorgc.out BinaryTree boost_iostreams)
-target_link_libraries(set3/verticalview.out BinaryTree boost_iostreams)
+target_link_libraries(set3/verticaltraversal.out BinaryTree boost_iostreams)
 
 # All linking section for set4 examples.
 target_link_libraries(set4/brokenbst.out BinaryTree boost_iostreams)

@@ -142,7 +142,7 @@ template<typename T> class BinaryTree
     // These are special methods to create binary tree from array [ both complete and not complete binaty trees ]. Also BST from a sorted array.
     void createFromArray(const vector<T>&, const T& nullItem=defaultVal<T>);  // This nullItem will be used to keep the node value null so that non-complete binary tree can be created.
     void createBSTFromSortedArray(const vector<T>&); // No check for sorted done to keep validation light and simple.
-    void createFromLevelArray(const vector<size_t>& idxList,const vector<T>& valList);
+    void createFromLevelArray(const vector<size_t>& idxList,const vector<T>& valList);  // This creates level wise binary tree with item at valList[i] at ith index in idxList[i].
 
     // Three standard traversals are provided.
     void doInOrderTraversal();
