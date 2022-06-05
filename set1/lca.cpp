@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
   {
     const BinaryTreeNode<int>* lca=findLCA(tree.getRoot(), get<0>(tupleItem), get<1>(tupleItem));
     if(lca)
-      cout<<"lca="<<lca->m_data<<endl;
+      cout<<"For items "<< get<0>(tupleItem)<<" and " << get<1>(tupleItem) << " the lca is = "<<lca->m_data<<endl;
     else
       cout<<"Both items not found on the binary tree"<<endl;
   }

@@ -20,7 +20,7 @@ void doZigZagTraversal(const BinaryTreeNode<int>* node, const bool& direction)
     stack1.pop(); 
     if(curr)
     {
-      cout<<curr->m_data<<", ";      
+      cout<<curr->m_data<<", ";
       if(currDirection)
       {
         if(curr->m_leftChild)
@@ -43,7 +43,7 @@ void doZigZagTraversal(const BinaryTreeNode<int>* node, const bool& direction)
       currDirection=!currDirection;
       // Swap the stacks.
       swap(stack1, stack2);
-      // newline to seperate levels.
+      // newline to separate levels.
       cout<<'\n';
     }
   }

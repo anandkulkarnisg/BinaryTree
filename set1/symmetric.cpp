@@ -36,7 +36,7 @@ bool isSymmetric(const BinaryTreeNode<int>* node)
   // After inversion check if the binary tree on left Child is same as binary tree on right Side.If so it is symmetric else no.
   bool result=isIdentical(node->m_leftChild, node->m_rightChild);
 
-  // revert the binary Tree left subtree.
+  // revert the binary Tree left subtree to restore original state.
   invertBinaryTree(node->m_leftChild);
   return(result);
 }
@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
   for(const auto& vec : vecList)
   {
     relaxedTree.createFromArray(vec,99);
-    cout<<"symmetric status="<<isSymmetric(relaxedTree.getRoot())<<endl;
+    cout<<"symmetric status = "<<isSymmetric(relaxedTree.getRoot())<<endl;
   }
   return(0);
 }

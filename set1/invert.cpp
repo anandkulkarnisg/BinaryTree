@@ -14,7 +14,7 @@ void invertBinaryTree(BinaryTreeNode<int>* node)
   invertBinaryTree(node->m_rightChild);
 }
 
-// Expected Algorithmic Complexity : O(n), Auxillary Memory Complexity : O(1).
+// Expected Algorithmic Complexity : O(n), Auxiliary Memory Complexity : O(1).
 // Additional Note : If a BST is inverted it produces a BST which is in reverse sorted order. Ex:- last testCase below. [ ascending to descending ].
 
 int main(int argc, char* argv[])

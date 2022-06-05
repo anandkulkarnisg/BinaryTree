@@ -44,7 +44,7 @@ void getVerticalView(const BinaryTreeNode<int>* node, vector<int>& results)
 
 // print items of a binary tree in vertical order from left to right.
 // Expected Algorithmic complexity : O(n).
-// Expected auxillary complexity : O(n) [ to store the elements vertically in by each vertical order ].
+// Expected auxiliary complexity : O(n) [ to store the elements vertically in by each vertical order ].
 
 int main(int argc, char* argv[])
 {

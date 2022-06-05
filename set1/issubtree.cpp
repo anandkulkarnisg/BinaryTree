@@ -17,11 +17,9 @@ bool isIdentical(const BinaryTreeNode<int>* x, const BinaryTreeNode<int>* y)
 
 bool isSubTree(const BinaryTreeNode<int>* node1, const BinaryTreeNode<int>* node2)
 {
-  if(!node1)
+  if(!node1||!node2)
     return(true);
-  if(!node2)
-    return(true);
-  if(isIdentical(node1, node2))
+  if(node1->m_data==node2->m_data&&isIdentical(node1, node2))
     return(true);
   return(isIdentical(node1->m_leftChild, node2)||isIdentical(node1->m_rightChild, node2)); 
 }

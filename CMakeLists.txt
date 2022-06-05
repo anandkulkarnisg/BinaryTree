@@ -40,6 +40,7 @@ add_executable(set1/contains.out set1/contains.cpp)
 add_executable(set1/contains2.out set1/contains2.cpp)
 add_executable(set1/invert.out set1/invert.cpp)
 add_executable(set1/symmetric.out set1/symmetric.cpp)
+add_executable(set1/reverseinorder.out set1/reverseinorder.cpp)
 
 # All 10 examples in set2.
 add_executable(set2/siblings.out set2/siblings.cpp)
@@ -90,6 +91,7 @@ add_executable(set5/countbtbst.out set5/countbtbst.cpp)
 add_executable(set5/isminmaxheap.out set5/isminmaxheap.cpp)
 add_executable(set5/maxksum.out set5/maxksum.cpp)
 add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
+add_executable(set5/altleafsum.out set5/altleafsum.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -125,6 +127,7 @@ target_link_libraries(set1/contains.out BinaryTree boost_iostreams)
 target_link_libraries(set1/contains2.out BinaryTree boost_iostreams)
 target_link_libraries(set1/invert.out BinaryTree boost_iostreams)
 target_link_libraries(set1/symmetric.out BinaryTree boost_iostreams)
+target_link_libraries(set1/reverseinorder.out BinaryTree boost_iostreams)
 
 # All linking section for set2 examples.
 target_link_libraries(set2/siblings.out BinaryTree boost_iostreams)
@@ -175,3 +178,4 @@ target_link_libraries(set5/countbtbst.out BinaryTree boost_iostreams)
 target_link_libraries(set5/isminmaxheap.out BinaryTree boost_iostreams)
 target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
+target_link_libraries(set5/altleafsum.out BinaryTree boost_iostreams)
