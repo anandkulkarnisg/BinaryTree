@@ -92,6 +92,7 @@ add_executable(set5/isminmaxheap.out set5/isminmaxheap.cpp)
 add_executable(set5/maxksum.out set5/maxksum.cpp)
 add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
 add_executable(set5/altleafsum.out set5/altleafsum.cpp)
+add_executable(set5/minmaxbst.out set5/minmaxbst.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -179,3 +180,4 @@ target_link_libraries(set5/isminmaxheap.out BinaryTree boost_iostreams)
 target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
 target_link_libraries(set5/altleafsum.out BinaryTree boost_iostreams)
+target_link_libraries(set5/minmaxbst.out BinaryTree boost_iostreams)
