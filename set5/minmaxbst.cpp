@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
   for(const auto& testCase : testCases)
   {
     tree.createBSTFromSortedArray(testCase);
-    cout << "Min item = " << getMinMaxBST(tree.getRoot(), bstType::min) << endl 
+    cout << "Min item = " << getMinMaxBST(tree.getRoot(), bstType::min) << endl; 
     cout<< "Max item = " << getMinMaxBST(tree.getRoot(), bstType::max)<< endl;
   }
   return(0);
