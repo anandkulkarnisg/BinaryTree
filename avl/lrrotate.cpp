@@ -10,6 +10,10 @@
 
 using namespace std;
 
+void setNodeAsLeaf(BinaryTreeNode<int>* node){
+  node->m_leftChild=node->m_rightChild=nullptr;
+}
+
 void doAvlLeftLeftRotation(BinaryTree<int>& tree){
   // First identify the binaryTree root as node.
   BinaryTreeNode<int>* node=tree.getRoot();
@@ -30,8 +34,7 @@ void doAvlLeftRightRotation(BinaryTree<int>& tree){
   node->m_leftChild->m_rightChild->m_leftChild=node->m_leftChild;
   node->m_leftChild=node->m_leftChild->m_rightChild;
   // Reset the circular relationship and make the below node leaf.
-  BinaryTreeNode<int>* makeLeafNode=node->m_leftChild->m_leftChild;
-  makeLeafNode->m_leftChild=makeLeafNode->m_rightChild=nullptr;
+  setNodeAsLeaf(node->m_leftChild->m_leftChild);
   // Now pass this tree as input to the LL rotate algorithm.
   doAvlLeftLeftRotation(tree);  
 }

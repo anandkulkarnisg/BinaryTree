@@ -94,10 +94,12 @@ add_executable(set5/maxksum.out set5/maxksum.cpp)
 add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
 add_executable(set5/altleafsum.out set5/altleafsum.cpp)
 add_executable(set5/minmaxbst.out set5/minmaxbst.cpp)
-add_executable(avl/avl-llrotate.out avl/avl-llrotate.cpp)
-add_executable(avl/avl-rrrotate.out avl/avl-rrrotate.cpp)
-add_executable(avl/avl-lrrotate.out avl/avl-lrrotate.cpp)
-add_executable(avl/avl-rlrotate.out avl/avl-rlrotate.cpp)
+
+# All examples related to AVL Tree single and double rotations.
+add_executable(avl/llrotate.out avl/llrotate.cpp)
+add_executable(avl/rrrotate.out avl/rrrotate.cpp)
+add_executable(avl/lrrotate.out avl/lrrotate.cpp)
+add_executable(avl/rlrotate.out avl/rlrotate.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -186,7 +188,9 @@ target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
 target_link_libraries(set5/altleafsum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/minmaxbst.out BinaryTree boost_iostreams)
-target_link_libraries(avl/avl-llrotate.out BinaryTree boost_iostreams)
-target_link_libraries(avl/avl-rrrotate.out BinaryTree boost_iostreams)
-target_link_libraries(avl/avl-lrrotate.out BinaryTree boost_iostreams)
-target_link_libraries(avl/avl-rlrotate.out BinaryTree boost_iostreams)
+
+# All the linking section for avl rotation examples.
+target_link_libraries(avl/llrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/rrrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/lrrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/rlrotate.out BinaryTree boost_iostreams)
