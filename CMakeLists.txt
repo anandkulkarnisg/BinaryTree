@@ -5,6 +5,7 @@ include_directories("library")
 link_directories("library")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -I. -I/home/anand/git/CyclicBarrier -L. -L/home/anand/git/CyclicBarrier -Wall -Werror")
 
+# Generate shared library libBinaryTree.so file.
 
 # Add test Examples below.
 add_executable(examples/Example1.out examples/Example1.cpp)
@@ -93,6 +94,10 @@ add_executable(set5/maxksum.out set5/maxksum.cpp)
 add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
 add_executable(set5/altleafsum.out set5/altleafsum.cpp)
 add_executable(set5/minmaxbst.out set5/minmaxbst.cpp)
+add_executable(avl/avl-llrotate.out avl/avl-llrotate.cpp)
+add_executable(avl/avl-rrrotate.out avl/avl-rrrotate.cpp)
+add_executable(avl/avl-lrrotate.out avl/avl-lrrotate.cpp)
+add_executable(avl/avl-rlrotate.out avl/avl-rlrotate.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -181,3 +186,7 @@ target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
 target_link_libraries(set5/altleafsum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/minmaxbst.out BinaryTree boost_iostreams)
+target_link_libraries(avl/avl-llrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/avl-rrrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/avl-lrrotate.out BinaryTree boost_iostreams)
+target_link_libraries(avl/avl-rlrotate.out BinaryTree boost_iostreams)

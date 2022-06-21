@@ -173,6 +173,9 @@ template<typename T> class BinaryTree
     // A function to indicate which types this library build supports.
     static string getSupportedTypes();
 
+    // Provide a mechanism to clear propertyCache for a relaxed tree.
+    void clearPropertyCache();
+
     // Default destructor.
     ~BinaryTree();  // destructor that deletes the binary tree underneath.
 };
