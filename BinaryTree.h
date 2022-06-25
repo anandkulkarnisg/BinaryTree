@@ -14,6 +14,8 @@
 #include<string>
 #include<unordered_set>
 
+#include<Converters.h>
+
 using namespace std;
 using namespace boost;
 using namespace boost::iostreams;
@@ -33,63 +35,10 @@ template<typename T> struct BinaryTreeNode
   }
 };
 
-template<typename T> constexpr T defaultVal = T(FLT_MIN);
-template<> constexpr int defaultVal<int> = INT_MIN;
-template<> constexpr float defaultVal<float> = FLT_MIN;
-template<> constexpr long defaultVal<long> = LONG_MIN;
-template<> constexpr char defaultVal<char> = '!';
-template<> constexpr size_t defaultVal<size_t> = ULONG_MAX;
-template<> constexpr const char* defaultVal<const char*> = "$%#$%#$";
-template<> string defaultVal<string> = "$%#$%#$";
-
-// A converter function that helps the serialization functions do proper data conversion while loading data stored on disk from string.
-template<typename T> T converter(const string& ref)
-{
-  return(static_cast<T>(ref));
-}
-template<> int converter(const string& ref)
-{
-  return(stoi(ref));
-}
-template<> long converter(const string& ref)
-{
-  return(stol(ref));
-}
-
-template<> float converter(const string& ref)
-{
-  return(stof(ref));
-}
-
-template<> char converter(const string& ref)
-{
-  return(char(ref[0]));
-}
-
-template<> size_t converter(const string& ref)
-{
-  return(stoul(ref));
-}
-
-template<> const char* converter(const string& ref)
-{
- return(ref.c_str()); 
-}
-
-template<> string converter(const string& ref)
-{
-  return(ref);
-}
-
 template<typename T> class BinaryTree
 {
   private:
-    BinaryTreeNode<T>* m_root=nullptr;
-    bool m_initialized=false;
     T m_overrideVal=defaultVal<T>;
-    bool m_isStrict=true;
-    map<string, size_t> m_propertyCache;
-    void deleteBinaryTree(BinaryTreeNode<T>*);
     void sizeInternal(BinaryTreeNode<T>*, size_t&);
     size_t heightInternal(BinaryTreeNode<T>*);
     BinaryTreeNode<T>* clone(const BinaryTreeNode<T>*);
@@ -113,6 +62,13 @@ template<typename T> class BinaryTree
     void isBSTInternal(const BinaryTreeNode<T>*, circular_buffer<T>&, size_t&, size_t&, size_t&);
 
     string getSerializePath(const string&) const;
+
+  protected:
+    BinaryTreeNode<T>* m_root=nullptr;
+    bool m_initialized=false;
+    bool m_isStrict=true;
+    void deleteBinaryTree(BinaryTreeNode<T>*);
+    map<string, size_t> m_propertyCache;
 
   public:
     // Key constructor, copy and assignment supported.The creation by pointer and reference are deep copy without using/owning the passed in parameter i.e pointer/reference.
