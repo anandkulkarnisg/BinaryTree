@@ -103,6 +103,10 @@ add_executable(avl/rlrotate.out avl/rlrotate.cpp)
 
 # All examples related to BST BinarySearchTree.
 add_executable(bst/Example1.out bst/Example1.cpp)
+add_executable(bst/Example2.out bst/Example2.cpp)
+add_executable(bst/Example3.out bst/Example3.cpp)
+add_executable(bst/Example4.out bst/Example4.cpp)
+add_executable(bst/Example5.out bst/Example5.cpp)
  
 # All linking section.
 target_link_libraries(examples/Example1.out BinaryTree boost_iostreams)
@@ -199,4 +203,8 @@ target_link_libraries(avl/lrrotate.out BinaryTree boost_iostreams)
 target_link_libraries(avl/rlrotate.out BinaryTree boost_iostreams)
 
 # All the examples related to BST tree.
-target_link_libraries(bst/Example1.out BinaryTree BinarySearchTree boost_iostreams)
+target_link_libraries(bst/Example1.out BinaryTree boost_iostreams)
+target_link_libraries(bst/Example2.out BinaryTree boost_iostreams)
+target_link_libraries(bst/Example3.out BinaryTree boost_iostreams)
+target_link_libraries(bst/Example4.out BinaryTree boost_iostreams)
+target_link_libraries(bst/Example5.out BinaryTree boost_iostreams)

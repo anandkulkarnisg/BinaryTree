@@ -17,6 +17,70 @@
 					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="bst/Example2.out">
+				<Option output="/home/anand/git/BinaryTree/bst/Example2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 bst/Example2.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst/Example2.out/fast">
+				<Option output="/home/anand/git/BinaryTree/bst/Example2.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 bst/Example2.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst/Example1.out">
+				<Option output="/home/anand/git/BinaryTree/bst/Example1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 bst/Example1.out"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bst/Example1.out/fast">
+				<Option output="/home/anand/git/BinaryTree/bst/Example1.out" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anand/git/BinaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anand/git/BinaryTree/library"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 bst/Example1.out/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/anand/git/BinaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="avl/rlrotate.out">
 				<Option output="/home/anand/git/BinaryTree/avl/rlrotate.out" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/anand/git/BinaryTree"/>
@@ -2609,6 +2673,12 @@
 		</Unit>
 		<Unit filename="/home/anand/git/BinaryTree/avl/rrrotate.cpp">
 			<Option target="avl/rrrotate.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/bst/Example1.cpp">
+			<Option target="bst/Example1.out"/>
+		</Unit>
+		<Unit filename="/home/anand/git/BinaryTree/bst/Example2.cpp">
+			<Option target="bst/Example2.out"/>
 		</Unit>
 		<Unit filename="/home/anand/git/BinaryTree/examples/Example1.cpp">
 			<Option target="examples/Example1.out"/>

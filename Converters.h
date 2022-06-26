@@ -7,6 +7,9 @@ using namespace std;
 #define Converters_H
 
 // A converter function that helps the serialization functions do proper data conversion while loading data stored on disk from string.
+// The function overrides/partial specializations need to be inline to solve multiple definitions during linking phase to avoid 
+// compilation errors.
+
 template<typename T> T converter(const string& ref)
 {
   return(static_cast<T>(ref));

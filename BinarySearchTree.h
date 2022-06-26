@@ -11,13 +11,15 @@ template<typename T> class BinarySearchTree : public BinaryTree<T>
 {
   private:
     void searchItemInternal(BinaryTreeNode<T>*, const T&, pair<bool, BinaryTreeNode<T>*>&);
+    BinaryTreeNode<T>* findParentInternal(const T&);
+    void swapNodes(BinaryTreeNode<T>*, BinaryTreeNode<T>*);
+    BinaryTreeNode<T>* findSuccessor(const BinaryTreeNode<T>*);
 
   public:
     BinarySearchTree(const bool&);
     void insertItem(const T&);
     pair<bool, BinaryTreeNode<T>*> searchItem(const T&);
     void deleteItem(const T&);
-    void resetBST();
 };
 
 #endif

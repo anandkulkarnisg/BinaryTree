@@ -132,6 +132,9 @@ template<typename T> class BinaryTree
     // Provide a mechanism to clear propertyCache for a relaxed tree.
     void clearPropertyCache();
 
+    // Provide a simple mechanism to reset the internal BinaryTree structure by releasing it.Works only for a relaxed tree having some size/data.
+    void reset();
+
     // Default destructor.
     ~BinaryTree();  // destructor that deletes the binary tree underneath.
 };

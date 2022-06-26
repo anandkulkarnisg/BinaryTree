@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<BinaryTree.h>
 #include<BinarySearchTree.h>
 
 using namespace std;
@@ -19,7 +18,7 @@ int main(int argc, char* argv[])
     bstTree.doInOrderTraversal();
     cout<<"size="<<bstTree.size()<<", "<<"height="<<bstTree.height()<<", heightBalancedStatus="<<bstTree.isHeightBalanced()<<endl;
     cout<<"search status for 4="<<bstTree.searchItem(4).first<<endl;
-    bstTree.resetBST();
+    bstTree.reset();
   }
   return(0); 
 }
