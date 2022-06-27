@@ -39,8 +39,6 @@ template<typename T> class BinaryTree
 {
   private:
     T m_overrideVal=defaultVal<T>;
-    void sizeInternal(BinaryTreeNode<T>*, size_t&);
-    size_t heightInternal(BinaryTreeNode<T>*);
     BinaryTreeNode<T>* clone(const BinaryTreeNode<T>*);
     BinaryTreeNode<T>* BSTFromSortedArrayInternal(const vector<T>&, const long&, const long&);
     void createFromLevelArrayInternal(const vector<size_t>&, const vector<T>&);
@@ -69,6 +67,8 @@ template<typename T> class BinaryTree
     bool m_isStrict=true;
     void deleteBinaryTree(BinaryTreeNode<T>*);
     map<string, size_t> m_propertyCache;
+    size_t heightInternal(BinaryTreeNode<T>*);
+    void sizeInternal(BinaryTreeNode<T>*, size_t&); 
 
   public:
     // Key constructor, copy and assignment supported.The creation by pointer and reference are deep copy without using/owning the passed in parameter i.e pointer/reference.
