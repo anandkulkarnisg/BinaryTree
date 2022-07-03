@@ -22,9 +22,9 @@ template<typename T> class BinarySearchTree : public BinaryTree<T>
 
   public:
     BinarySearchTree(const bool&);
-    void insertItem(const T&);
+    pair<bool, BinaryTreeNode<T>*> insertItem(const T&);
     pair<bool, BinaryTreeNode<T>*> searchItem(const T&);
-    void deleteItem(const T&);
+    bool deleteItem(const T&);
     void setBSTRebalancePolicy(const bstRebalancePolicy&);
     bstRebalancePolicy getBSTRebalancePolicy();
 };

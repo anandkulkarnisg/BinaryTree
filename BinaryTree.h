@@ -28,10 +28,12 @@ template<typename T> struct BinaryTreeNode
   T m_data;
   BinaryTreeNode<T>* m_leftChild;
   BinaryTreeNode<T>* m_rightChild;
+  long m_balanceFactor;
   BinaryTreeNode(const T& data)
   {
     m_data=data;
     m_leftChild=m_rightChild=nullptr;
+    m_balanceFactor=0;  // Balance factor for the AVL Trees.
   }
 };
 
