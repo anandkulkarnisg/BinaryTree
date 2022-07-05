@@ -5,8 +5,6 @@ include_directories("library")
 link_directories("library")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -I. -I/home/anand/git/CyclicBarrier -L. -L/home/anand/git/CyclicBarrier -Wall -Werror")
 
-# Generate shared library libBinaryTree.so file.
-ADD_LIBRARY(BinaryTree SHARED BinaryTree.cpp BinarySearchTree.cpp AVLTree.cpp)
 
 # Add test Examples below.
 add_executable(examples/Example1.out examples/Example1.cpp)
@@ -102,6 +100,8 @@ add_executable(avl/rrrotate.out avl/rrrotate.cpp)
 add_executable(avl/lrrotate.out avl/lrrotate.cpp)
 add_executable(avl/rlrotate.out avl/rlrotate.cpp)
 add_executable(avl/Example1.out avl/Example1.cpp)
+add_executable(avl/Example2.out avl/Example2.cpp)
+add_executable(avl/Example3.out avl/Example3.cpp)
 
 # All examples related to BST BinarySearchTree.
 add_executable(bst/Example1.out bst/Example1.cpp)
@@ -207,6 +207,8 @@ target_link_libraries(avl/rrrotate.out BinaryTree boost_iostreams)
 target_link_libraries(avl/lrrotate.out BinaryTree boost_iostreams)
 target_link_libraries(avl/rlrotate.out BinaryTree boost_iostreams)
 target_link_libraries(avl/Example1.out BinaryTree boost_iostreams)
+target_link_libraries(avl/Example2.out BinaryTree boost_iostreams)
+target_link_libraries(avl/Example3.out BinaryTree boost_iostreams)
 
 # All the examples related to BST tree.
 target_link_libraries(bst/Example1.out BinaryTree boost_iostreams)

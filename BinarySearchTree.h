@@ -14,11 +14,13 @@ template<typename T> class BinarySearchTree : public BinaryTree<T>
   private:
     void searchItemInternal(BinaryTreeNode<T>*, const T&, pair<bool, BinaryTreeNode<T>*>&);
     BinaryTreeNode<T>* findParentInternal(const T&);
-    BinaryTreeNode<T>* findSuccessor(const BinaryTreeNode<T>*);
-    BinaryTreeNode<T>* findPredecessor(const BinaryTreeNode<T>*);
     void rebalancePredecessor(BinaryTreeNode<T>*);
     void rebalanceSuccessor(BinaryTreeNode<T>*);
     bstRebalancePolicy m_rebalancePolicy=bstRebalancePolicy::successor;
+
+  protected:
+    BinaryTreeNode<T>* findSuccessor(const BinaryTreeNode<T>*);
+    BinaryTreeNode<T>* findPredecessor(const BinaryTreeNode<T>*);
 
   public:
     BinarySearchTree(const bool&);

@@ -17,7 +17,9 @@ template<typename T> class AVLTree : public BinarySearchTree<T>
     BinaryTreeNode<T>* doLRRotation(BinaryTreeNode<T>*);
     BinaryTreeNode<T>* doRLRotation(BinaryTreeNode<T>*);
     BinaryTreeNode<T>* runAVLRotations(BinaryTreeNode<T>*);
-    BinaryTreeNode<T>* insertAVLItemInternal(BinaryTreeNode<T>*,const T&,BinaryTreeNode<T>*);
+    BinaryTreeNode<T>* insertAVLItemInternal(BinaryTreeNode<T>*,const T&,BinaryTreeNode<T>**);
+    BinaryTreeNode<T>* deleteItemInternal(BinaryTreeNode<T>*, const T&);
+    BinaryTreeNode<T>* runAVLDeleteRotations(BinaryTreeNode<T>*);
 
   public:
     AVLTree(const bool&);
