@@ -31,12 +31,14 @@ int main(int argc, char* argv[])
     cout<<"The search status for = "<<deleteItem<<" is = "<<searchStatusPair.first<<endl;
     bool deleteStatus=avlTree.deleteItem(deleteItem);
     cout<<"The deletion status = "<<deleteStatus<<endl;
-    if(avlTree.getRoot())
-      cout<<"The new root after deletion is ="<<avlTree.getRoot()->m_data<<endl;
+    if(avlTree.getRoot()){
+      cout<<"The new root after deletion is = "<<avlTree.getRoot()->m_data<<endl;
+      cout<<"The inorder traversal is : "<<endl;
+      displayBalanceFactorsInOrder(avlTree.getRoot());
+    }
     else
-      cout<<"The tree is empty."<<endl;
-    displayBalanceFactorsInOrder(avlTree.getRoot());
-  cout<<"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"<<endl;
+      cout<<"The tree is empty/null."<<endl;
+    cout<<"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"<<endl;
   }
   return(0);
 }

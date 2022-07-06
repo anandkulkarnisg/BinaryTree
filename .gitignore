@@ -48,3 +48,4 @@ AVLTree.cpp
 dosync
 *.core.*
 *.png
+*.log
