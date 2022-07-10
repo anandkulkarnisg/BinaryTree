@@ -20,6 +20,7 @@ template<typename T> class AVLTree : public BinarySearchTree<T>
     BinaryTreeNode<T>* insertAVLItemInternal(BinaryTreeNode<T>*,const T&,BinaryTreeNode<T>**);
     BinaryTreeNode<T>* deleteItemInternal(BinaryTreeNode<T>*, const T&);
     BinaryTreeNode<T>* runAVLDeleteRotations(BinaryTreeNode<T>*);
+    bool in(const long&, const vector<long>&);
 
   public:
     AVLTree(const bool&);

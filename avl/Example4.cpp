@@ -13,9 +13,12 @@ void percentTracker(const size_t& idx, const size_t& size)
 int main(int argc, char* argv[])
 {
   AVLTree<int> avlTree(false);
-  size_t size=atoi(argv[1]);
-  for(size_t i=0;i<size;++i)
-  {
+  size_t size=1000;
+  if(argc==2)
+    size=atoi(argv[1]);
+  else
+    cout<<"defaulting the size of AVL Tree="<<size<<endl;
+  for(size_t i=0;i<size;++i){
     avlTree.insertItem(i);
     percentTracker(i, size);
   }
