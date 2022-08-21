@@ -77,6 +77,7 @@ int main(int argc, char* argv[])
   vector<int> vec={50,30,60,5,20,45,70,99,99,99,99,99,99,65,80};
   BinaryTree<int> tree;
   tree.createFromArray(vec,99);
+  tree.doInOrderTraversal();
 
   // Identify the largest size binary search tree inside this tree. If nothing found return 1 since each node in itself is a BST.
   pair<const BinaryTreeNode<int>*,size_t> solution=findLargestBST(tree.getRoot());

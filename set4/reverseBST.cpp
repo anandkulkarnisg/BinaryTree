@@ -52,7 +52,7 @@ void reverseBST(BinaryTree<int>& tree)
   }
   const size_t iterations=tree.size()/2;
   tuple<int*, int*> swapPair=make_tuple<int*, int*>(&node->m_data, &node->m_data);
-  constexpr short barrierPair=2;
+  constexpr int barrierPair=2;
   size_t currIter=0;
   CyclicBarrier preBarrier(barrierPair), postBarrier(barrierPair);
   thread t1(&inOrderTraversal, node, std::cref(iterations), std::ref(currIter), true,  std::ref(swapPair), std::ref(preBarrier), std::ref(postBarrier));

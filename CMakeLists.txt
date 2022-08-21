@@ -93,6 +93,8 @@ add_executable(set5/maxksum.out set5/maxksum.cpp)
 add_executable(set5/leaftorootheight.out set5/leaftorootheight.cpp)
 add_executable(set5/altleafsum.out set5/altleafsum.cpp)
 add_executable(set5/minmaxbst.out set5/minmaxbst.cpp)
+add_executable(set5/sumoddgpc.out set5/sumoddgpc.cpp)
+
 
 # All examples related to AVL Tree single and double rotations.
 add_executable(avl/llrotate.out avl/llrotate.cpp)
@@ -203,6 +205,7 @@ target_link_libraries(set5/maxksum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/leaftorootheight.out BinaryTree boost_iostreams)
 target_link_libraries(set5/altleafsum.out BinaryTree boost_iostreams)
 target_link_libraries(set5/minmaxbst.out BinaryTree boost_iostreams)
+target_link_libraries(set5/sumoddgpc.out BinaryTree boost_iostreams)
 
 # All the linking section for avl rotation examples.
 target_link_libraries(avl/llrotate.out BinaryTree boost_iostreams)
