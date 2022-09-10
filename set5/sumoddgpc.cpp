@@ -28,16 +28,14 @@ long findSumwhereGrandParentChildrenOdd(const unique_ptr<BinaryTree<int>>& treeR
 }
 
 // Question : Identify the total sum of all such nodes where the node is odd and its grand parent is also odd.
-// grand parent is the parent node of the parent of current node.
+// grand parent is the parent node of the parent of current node.If grand parent doesnt exist, then dont consider the node.
 
-// Algorithmic complexity : O(n)
-// Auxillary Memory complexity : O(log(n)) [ array size is proportional to binary tree height, a balanced tree will have O(log(n)) height ].
-// Is it possible to make auxillary memory O(1) to keep track of only parent and grand parent for each node ?
+// Algorithmic complexity : O(n).
+// Auxillary Memory complexity : O(h) = O(log(n)) [ array size is proportional to binary tree height, a balanced tree will have O(log(n)) height ].
+// Q:Is it possible to make auxillary memory O(1) to keep track of only parent and grand parent for each node ?
 
 int main(int argc, char* argv[]){
-  //unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}));
-  //unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7}));
-  unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3}));
+  unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}));
   long sum=findSumwhereGrandParentChildrenOdd(uniqueBstPtr);
   cout<<"sum="<<sum<<endl;
   return(0);
