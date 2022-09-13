@@ -7,7 +7,6 @@
 using namespace std;
 using namespace boost;
 
-
 // Solution 1.
 void findSumImpl(const BinaryTreeNode<int>* node, std::vector<std::pair<const BinaryTreeNode<int>*, bool>>& arr, const int& idx, long& sum, const bool childType){
   if(!node)
@@ -40,7 +39,6 @@ long findSumWhereUncleAndNodeAreOdd(const unique_ptr<BinaryTree<int>>& treeRef){
   findSumImpl(treeRef.get()->getRoot(), arr, 0, sum, false);
   return(sum);
 }
-
 
 void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* parentNode, const size_t currentLevel, long & sum, const bool isLeftOrRight){
   if(!node)
