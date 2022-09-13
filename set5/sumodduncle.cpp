@@ -40,14 +40,18 @@ long findSumWhereUncleAndNodeAreOdd(const unique_ptr<BinaryTree<int>>& treeRef){
   return(sum);
 }
 
+bool matches(const BinaryTreeNode<int>* node){
+  return(node&&node->m_data%2==1);
+}
+
 void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* parentNode, const size_t currentLevel, long & sum, const bool isLeftOrRight){
   if(!node)
     return;
   if(currentLevel>0&&parentNode){
     BinaryTreeNode<int>* uncleNode=(isLeftOrRight)?parentNode->m_rightChild:parentNode->m_leftChild;
-    if(node->m_leftChild&&node->m_leftChild->m_data%2==1&&uncleNode&&uncleNode->m_data%2==1)
-      sum+=node->m_leftChild->m_data; 
-    if(node->m_rightChild&&node->m_rightChild->m_data%2==1&&uncleNode&&uncleNode->m_data%2==1)
+    if(matches(node->m_leftChild)&&matches(uncleNode))
+      sum+=node->m_leftChild->m_data;
+    if(matches(node->m_rightChild)&&matches(uncleNode))
       sum+=node->m_rightChild->m_data;
   }
   // Now invoke further recursive calls.
