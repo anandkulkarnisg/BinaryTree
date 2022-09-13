@@ -27,15 +27,19 @@ long findSumwhereGrandParentChildrenOdd(const unique_ptr<BinaryTree<int>>& treeR
   return(sum);
 }
 
+bool qualifies(const BinaryTreeNode<int>* node){
+  return(node&&node->m_data%2==1);
+}
+
 // Alternate solution using current node and its parent node in parameter list.Perhaps O(1) or atleast better than O(h) memory usage.
 void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* parentNode, long& sum){
   if(!node)
     return;
-  if(parentNode){
-    if(node->m_leftChild&&node->m_leftChild->m_data%2==1&&parentNode->m_data%2==1)
-      sum+=node->m_leftChild->m_data;
-    if(node->m_rightChild&&node->m_rightChild->m_data%2==1&&parentNode->m_data%2==1)
-      sum+=node->m_rightChild->m_data;
+  if(parentNode&&parentNode->m_data%2==1){
+    for(auto node : {node->m_leftChild, node->m_rightChild}){
+      if(qualifies(node))
+        sum+=node->m_data;
+    }
   }
   // Do further recursive calls.
   findSumImpl2(node->m_leftChild, node, sum);
