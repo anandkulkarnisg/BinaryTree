@@ -27,6 +27,27 @@ long findSumwhereGrandParentChildrenOdd(const unique_ptr<BinaryTree<int>>& treeR
   return(sum);
 }
 
+// Alternate solution using current node and its parent node in parameter list.Perhaps O(1) or atleast better than O(h) memory usage.
+void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* parentNode, long& sum){
+  if(!node)
+    return;
+  if(parentNode){
+    if(node->m_leftChild&&node->m_leftChild->m_data%2==1&&parentNode->m_data%2==1)
+      sum+=node->m_leftChild->m_data;
+    if(node->m_rightChild&&node->m_rightChild->m_data%2==1&&parentNode->m_data%2==1)
+      sum+=node->m_rightChild->m_data;
+  }
+  // Do further recursive calls.
+  findSumImpl2(node->m_leftChild, node, sum);
+  findSumImpl2(node->m_rightChild, node, sum);
+}
+
+long findSumAlternateMethod(const unique_ptr<BinaryTree<int>>& treeRef){
+  long sum=0;
+  findSumImpl2(treeRef.get()->getRoot(), nullptr, sum);
+  return(sum);
+}
+
 // Question : Identify the total sum of all such nodes where the node is odd and its grand parent is also odd.
 // grand parent is the parent node of the parent of current node.If grand parent doesnt exist, then dont consider the node.
 
@@ -37,6 +58,7 @@ long findSumwhereGrandParentChildrenOdd(const unique_ptr<BinaryTree<int>>& treeR
 int main(int argc, char* argv[]){
   unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}));
   long sum=findSumwhereGrandParentChildrenOdd(uniqueBstPtr);
-  cout<<"sum="<<sum<<endl;
+  long altSum=findSumAlternateMethod(uniqueBstPtr);  
+  cout<<"sum="<<sum<<" and altSum="<<altSum<<endl;
   return(0);
 }
