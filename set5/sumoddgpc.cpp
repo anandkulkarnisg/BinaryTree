@@ -35,7 +35,7 @@ bool qualifies(const BinaryTreeNode<int>* node){
 void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* parentNode, long& sum){
   if(!node)
     return;
-  if(parentNode&&parentNode->m_data%2==1){
+  if(qualifies(parentNode)){
     for(auto node : {node->m_leftChild, node->m_rightChild}){
       if(qualifies(node))
         sum+=node->m_data;
@@ -62,7 +62,7 @@ long findSumAlternateMethod(const unique_ptr<BinaryTree<int>>& treeRef){
 int main(int argc, char* argv[]){
   unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}));
   long sum=findSumwhereGrandParentChildrenOdd(uniqueBstPtr);
-  long altSum=findSumAlternateMethod(uniqueBstPtr);  
+  long altSum=findSumAlternateMethod(uniqueBstPtr);
   cout<<"sum="<<sum<<" and altSum="<<altSum<<endl;
   return(0);
 }
