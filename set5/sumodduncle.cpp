@@ -16,9 +16,9 @@ void findSumImpl(const BinaryTreeNode<int>* node, std::vector<std::pair<const Bi
     const BinaryTreeNode<int>* grandParentNode=arr[idx-2].first;
     bool parentType=arr[idx-1].second;
     if(parentType){
-     if(grandParentNode->m_rightChild&&grandParentNode->m_rightChild->m_data%2==1){
-       //cout<<"node val="<<node->m_data<<" and uncle is = "<<grandParentNode->m_rightChild->m_data<<endl;
-       sum+=node->m_data;
+      if(grandParentNode->m_rightChild&&grandParentNode->m_rightChild->m_data%2==1){
+        //cout<<"node val="<<node->m_data<<" and uncle is = "<<grandParentNode->m_rightChild->m_data<<endl;
+        sum+=node->m_data;
       }
     }else{
       if(grandParentNode->m_leftChild&&grandParentNode->m_leftChild->m_data%2==1){
@@ -49,10 +49,12 @@ void findSumImpl2(const BinaryTreeNode<int>* node, const BinaryTreeNode<int>* pa
     return;
   if(currentLevel>0&&parentNode){
     BinaryTreeNode<int>* uncleNode=(isLeftOrRight)?parentNode->m_rightChild:parentNode->m_leftChild;
-    if(matches(node->m_leftChild)&&matches(uncleNode))
-      sum+=node->m_leftChild->m_data;
-    if(matches(node->m_rightChild)&&matches(uncleNode))
-      sum+=node->m_rightChild->m_data;
+    if(matches(uncleNode)){
+      for(auto node : {node->m_leftChild, node->m_rightChild}){
+        if(matches(node))
+          sum+=node->m_data;
+      }
+    }
   }
   // Now invoke further recursive calls.
   findSumImpl2(node->m_leftChild, node, currentLevel+1, sum, true);
