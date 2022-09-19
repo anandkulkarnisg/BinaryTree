@@ -84,7 +84,6 @@ int main(int argc, char* argv[]){
   //unique_ptr<BinaryTree<int>> uniqueBstPtr(new BinaryTree<int>({1, 2, 3, 4, 5, 6, 7}));
   long sum=findSumWhereUncleAndNodeAreOdd(uniqueBstPtr);
   long sumAlt=findSumOddUncle(uniqueBstPtr);
-  cout<<"sum="<<sum<<endl;
-  cout<<"sumAlt="<<sumAlt<<endl;
+  cout<<"sum="<<sum<<" and sumAlt="<<sumAlt<<endl;
   return(0);
 }
